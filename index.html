@@ -1,38 +1,142 @@
 <!DOCTYPE html>
 <html lang="ar" dir="rtl">
+
 <head>
-<meta charset="UTF-8">
-<title>الأستاذ علاء ناصر العسيري</title>
-<link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>بوابة الأستاذ علاء ناصر العسيري</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-<div class="container">
+<nav class="navbar">
+    <div class="brand">علاء ناصر العسيري</div>
 
-<div class="card">
-<h1>بوابة الأستاذ علاء ناصر العسيري</h1>
-<p>
-ملف إلكتروني يجمع الأعمال التعليمية والمبادرات والإنجازات
-</p>
-</div>
+    <div class="nav-links">
+        <a href="#home">الرئيسية</a>
+        <a href="#teaching">التعليم والتدريس</a>
+        <a href="#nafes">نافس</a>
+        <a href="#activity">النشاط الطلابي</a>
+        <a href="#achievement">ملف الإنجاز</a>
+    </div>
+</nav>
 
-<div class="card">
-<h2>التعليم والتدريس</h2>
-<p>خطط دروس - مذكرات علوم - تجارب - أوراق عمل</p>
-</div>
 
-<div class="card">
-<h2>التحسين المدرسي ونافس</h2>
-<p>خطط التحسين وتحليل النتائج والمبادرات</p>
-</div>
+<main class="container" id="home">
 
-<div class="card">
-<h2>النشاط الطلابي</h2>
-<p>برامج ومسابقات وإذاعات مدرسية</p>
-</div>
+    <section class="hero">
 
-</div>
+        <span class="badge">
+            منصة تعليمية شخصية
+        </span>
+
+        <h1>
+            بوابة الأستاذ<br>
+            علاء ناصر العسيري
+        </h1>
+
+        <p>
+            مساحة رقمية تجمع الأعمال التعليمية والمبادرات
+            والإنجازات والتجارب والخطط التطويرية.
+        </p>
+
+        <div class="hero-buttons">
+            <a href="#achievement" class="btn primary">
+                استعرض ملف الإنجاز
+            </a>
+
+            <a href="#sections" class="btn secondary">
+                استكشف البوابة
+            </a>
+        </div>
+
+    </section>
+
+
+    <section class="section-title" id="sections">
+        <span>مجالات العمل</span>
+        <h2>استكشف البوابة</h2>
+        <p>اختر المجال الذي ترغب في استعراضه</p>
+    </section>
+
+
+    <section class="cards-grid">
+
+        <div class="card" id="teaching">
+            <div class="icon">📚</div>
+            <h2>التعليم والتدريس</h2>
+            <p>
+                خطط الدروس، مذكرات العلوم، أوراق العمل
+                والتجارب والمصادر التعليمية.
+            </p>
+            <a href="#">عرض الأعمال ←</a>
+        </div>
+
+
+        <div class="card" id="nafes">
+            <div class="icon">📊</div>
+            <h2>نافس والتحسين المدرسي</h2>
+            <p>
+                تحليل النتائج وخطط التحسين والمبادرات
+                وبرامج رفع مستوى الطلاب.
+            </p>
+            <a href="#">عرض القسم ←</a>
+        </div>
+
+
+        <div class="card" id="activity">
+            <div class="icon">🏆</div>
+            <h2>النشاط الطلابي</h2>
+            <p>
+                المبادرات والمسابقات والفعاليات
+                والبرامج والإذاعات المدرسية.
+            </p>
+            <a href="#">عرض الأنشطة ←</a>
+        </div>
+
+
+        <div class="card">
+            <div class="icon">🤖</div>
+            <h2>الذكاء الاصطناعي</h2>
+            <p>
+                تطبيقات وأدوات الذكاء الاصطناعي
+                وتوظيفها في التعليم.
+            </p>
+            <a href="#">استكشف التطبيقات ←</a>
+        </div>
+
+
+        <div class="card">
+            <div class="icon">🧪</div>
+            <h2>العلوم والتجارب</h2>
+            <p>
+                التجارب العلمية والمحتوى والأنشطة
+                والمصادر التعليمية.
+            </p>
+            <a href="#">عرض المحتوى ←</a>
+        </div>
+
+
+        <div class="card" id="achievement">
+            <div class="icon">📁</div>
+            <h2>ملف الإنجاز</h2>
+            <p>
+                التقارير والشهادات والزيارات
+                والدروس التطبيقية والأعمال المميزة.
+            </p>
+            <a href="#">فتح ملف الإنجاز ←</a>
+        </div>
+
+    </section>
+
+</main>
+
+
+<footer>
+    <h3>الأستاذ علاء ناصر العسيري</h3>
+    <p>التعليم • التطوير • الابتكار</p>
+</footer>
 
 </body>
 </html>
